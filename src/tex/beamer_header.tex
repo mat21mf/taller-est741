@@ -1,0 +1,70 @@
+\usepackage{graphicx}
+\usepackage{rotating}
+%\setbeamertemplate{caption}[numbered]
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage[normalem]{ulem}
+%\mode<presentation>
+\usepackage{wasysym}
+\usepackage{amsmath}
+\setbeamertemplate{navigation symbols}{}
+%\institute{Department of Political Science}
+\titlegraphic{\includegraphics[width=0.3\paperwidth]{\string./figs/logoPUCV.pdf}}
+\setbeamertemplate{title page}[empty]
+\setbeamerfont{subtitle}{size=\small}
+\setbeamercovered{transparent}
+\definecolor{clemsonpurple}{HTML}{522D80}
+\definecolor{clemsonorange}{HTML}{F66733}
+\setbeamercolor{frametitle}{fg=clemsonpurple,bg=white}
+\setbeamercolor{title}{fg=clemsonpurple,bg=white}
+\setbeamercolor{local structure}{fg=clemsonpurple}
+\setbeamercolor{section in toc}{fg=clemsonpurple,bg=white}
+% \setbeamercolor{subsection in toc}{fg=clemsonorange,bg=white}
+\setbeamercolor{item projected}{fg=clemsonpurple,bg=white}
+\setbeamertemplate{itemize item}{\color{clemsonpurple}$\bullet$}
+\setbeamertemplate{itemize subitem}{\color{clemsonpurple}\scriptsize{$\bullet$}}
+\let\Tiny=\tiny
+\AtBeginPart{}
+\AtBeginSection{}
+\AtBeginSubsection{}
+\AtBeginSubsubsection{}
+\setlength{\emergencystretch}{0em}
+\setlength{\parskip}{0pt}
+
+% multirow
+\usepackage{multirow}
+
+% multicol
+%%% problemas con longtable
+\usepackage{multicol}
+\newcommand{\btwocol}{\begin{multicols}{2}}
+\newcommand{\etwocol}{\end{multicols}}
+
+%%% listings codigo
+\usepackage{listings}
+
+% \usepackage{xcolor}
+%
+% % declare overall beamer theme to use as baseline
+% \usetheme{default}
+%
+% % make code-output smaller
+% \DefineVerbatimEnvironment{Highlighting}{Verbatim}{fontsize=\tiny,commandchars=\\\{\}}
+%
+% % make console-output smaller:
+% \makeatletter
+% \def\verbatim{\tiny\@verbatim \frenchspacing\@vobeyspaces \@xverbatim}
+% \makeatother
+%
+% % set vertical spacing between paragraphs:
+% % \parskip{0pt}
+% % \addtobeamertemplate{blocks}{}{\setlength{\parskip}{0pt}}
+% % \addtobeamertemplate{block begin}{}{\setlength{\parskip}{0pt}}
+% % \addtobeamertemplate{block end}{}{\setlength{\parskip}{0pt}}
+% % % \setlength{\emergencystretch}{0em}
+% \setlength{\parskip}{0pt}
+%
+% \setlength{\OuterFrameSep}{-4pt}
+% \makeatletter
+% \preto{\@verbatim}{\topsep=-10pt \partopsep=-10pt }
+% \makeatother

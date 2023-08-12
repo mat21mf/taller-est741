@@ -1,0 +1,222 @@
+
+% imagenes svg clickeables da error contra xcolor
+% \usepackage{svg}
+
+
+% vista landscape con rotating
+\usepackage{pdflscape}
+%% definicion 1
+  \newcommand{\blandscape}{\begin{landscape}}
+  \newcommand{\elandscape}{\end{landscape}}
+%% definicion 2
+% \newcommand{\blandscape}{
+% \begin{landscape}
+% \thispagestyle{empty}}
+% \newcommand{\elandscape}{
+% \vfill
+% \raisebox{-2}{\makebox[\linewidth]{\thepage}}
+% \end{landscape}}
+% apt-get install texlive-games --no-install-recommends
+% \usepackage{rotating}
+% \newcommand{\brotating}{\begin{rotate}{90}}
+% \newcommand{\erotating}{\end{rotate}}
+
+
+% codificacion
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+
+% underscore funcione tanto en mathmode como en texmode
+% https://tex.stackexchange.com/questions/62705/underscore-in-textmode-vs-mathmode
+\AtBeginDocument{
+  \catcode`_=12
+  \begingroup\lccode`~=`_
+  \lowercase{\endgroup\let~}\sb
+  \mathcode`_="8000
+}
+
+
+\usepackage{inconsolata}
+\usepackage{textcomp}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{pmboxdraw}
+
+% MEJORES TABLAS
+\usepackage{booktabs}
+
+% TABLAS GRANDES
+\usepackage{float}
+
+% TABLAS LARGAS
+\usepackage{longtable}
+
+% multirow
+\usepackage{multirow}
+
+% multicol
+%%% problemas con longtable
+\usepackage{multicol}
+\newcommand{\btwocol}{\begin{multicols}{2}}
+\newcommand{\etwocol}{\end{multicols}}
+
+% insertar cortes a enlaces
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+
+% colores custom
+\usepackage[dvipsnames,svgnames,x11names,hyperref,table]{xcolor}
+% ver colores en: http://latexcolor.com/
+\hypersetup{colorlinks,breaklinks,
+            urlcolor=[rgb]{0,0,0.55},
+            linkcolor=[rgb]{0,0,0.55}}
+
+%%% color en tablas con cellcolor
+\usepackage{colortbl}
+%%% ejemplo \cellcolor{red!25}0.95
+
+%%%%%% spacing
+\usepackage{setspace}\doublespacing
+
+%%%%%% parskip (separacion entre parrafos)
+\setlength{\parskip}{0.3cm}
+
+%%% listings codigo
+\usepackage{listings}
+
+%%%%%%%%%%%%%%
+% bibliografia
+%%%%%%%%%%%%%%
+
+%%%
+%%% instalar pandoc-citeproc
+%%% apt-get install pandoc-citeproc --no-install-recommends
+%%%
+
+%%%
+%%% No es reconocido el codigo latex en el documento md
+%%% en cuanto a bibliografia. Pendiente modificar
+%%% Es colocada al final del documento por defecto
+%%% eso debe cambiarse posteriormente o pasar
+%%% el documento completo a latex
+%%%
+
+% bibliografia sin heading
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+
+%%%%%%%%%%%%%%
+
+% MARGENES
+% \usepackage[margin=0.60in,footskip=0.20in]{geometry}
+% \usepackage[landscape,width=15in,height=11.5in,top=.5in,bottow=.5in]{geometry}
+
+% % logo 1
+% \usepackage{fancyhdr}
+% \pagestyle{fancy}
+% \rhead{\includegraphics[width = .05\textwidth]{figs/logoPUCV.pdf}}
+% \usepackage{titling}
+
+  % logo 2
+  \pretitle{%
+    \begin{center}
+    \LARGE
+    \includegraphics[width=6cm,height=8cm]{figs/logoPUCV.pdf}\\[\bigskipamount]
+  }
+  \posttitle{\end{center}}
+
+% ajustar dimension pagina adjustpagedim
+%https://tex.stackexchange.com/questions/233336/how-to-adjust-textwidth-and-textheight-to-paper-size-in-mid-document-and-heade
+%\documentclass{article}
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{fancyhdr}
+
+\def\vcoef#1{#1=\dimexpr #1*\pdfpageheight/\paperheight\relax}
+\def\hcoef#1{#1=\dimexpr #1*\pdfpagewidth/\paperwidth\relax}
+
+% reajustar tamaño pagina con 2 comandos
+\makeatletter
+\def\adjustpagedim#1#2{%
+\newpage
+\pdfpagewidth=#1 \pdfpageheight=#2
+\hcoef\textwidth
+\vcoef\textheight
+\vsize=\textheight
+\@colroom=\textheight
+\@colht=\textheight
+\columnwidth=\textwidth
+\if@twocolumn%
+   \advance\columnwidth-\columnsep
+   \divide\columnwidth\tw@%
+   \@firstcolumntrue%
+\fi%
+\hsize=\columnwidth
+\linewidth=\hsize
+\hcoef\evensidemargin
+\hcoef\oddsidemargin
+\vcoef\topmargin
+\vcoef\headheight
+\vcoef\headsep
+\vcoef\footskip
+\hcoef\marginparwidth
+\hcoef\marginparsep
+\headwidth=\textwidth
+% this is important but does nothing here
+\paperwidth=\pdfpagewidth
+\paperheight=\pdfpageheight}
+\makeatother
+% \begin{document}
+%
+% \thispagestyle{fancy}
+% %----->I change something here
+% \newlength{\classpageheight}
+% \setlength{\classpageheight}{\paperheight}
+% \newlength{\classpagewidth}
+% \setlength{\classpagewidth}{\paperwidth}
+%
+% \lipsum[1-6]
+%
+% \adjustpagedim{17in}{18in}
+% \thispagestyle{fancy}
+%
+% \lipsum[1-6]
+%
+% \adjustpagedim{\classpagewidth}{\classpageheight}
+% \thispagestyle{fancy}
+%
+% \lipsum[1-6]
+%
+% \end{document}
+
+%%%% ruta para archivos externos ignorado (pendiente)
+\makeatletter
+\def\input@path{{png/}{figs/}{tabs/}{tabs/latex/}{tabs/context/}{tabs/csv/}}
+\makeatother
+
+% rutas de las figuras
+\graphicspath{{png/}{figs/}{figs/png/}{figs/eps/}{figs/pdf/}}
+
+% tablas con tamaño especifico
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+% hyphenationes (son ignoradas)
+\babelhyphenation[spanish]{asig-nación}
+
+% hyphenationes con underscore
+\newcommand{\gpus}{\_\discretionary{-}{}{}}
+
+% Output loop---100 consecutive dead cycles
+\maxdeadcycles=1000
+
+% LaTeX Error: Too many unprocessed floats
+% https://texfaq.org/FAQ-tmupfl
+% usar \clearpage cada 2 imagenes
+
+% listings
+\usepackage{listings}

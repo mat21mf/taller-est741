@@ -1,0 +1,812 @@
+make[1]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/m4'
+make[1]: No se hace nada para 'R'.
+make[1]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/m4'
+make[1]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/tools'
+make[1]: No se hace nada para 'R'.
+make[1]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/tools'
+make[1]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/doc'
+make[2]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/doc/html'
+make[2]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/doc/html'
+make[2]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/doc/manual'
+make[2]: No se hace nada para 'R'.
+make[2]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/doc/manual'
+make[1]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/doc'
+make[1]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/etc'
+make[1]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/etc'
+make[1]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/share'
+make[1]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/share'
+make[1]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src'
+make[2]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/scripts'
+creating src/scripts/R.fe
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/scripts'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/scripts'
+make[2]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/scripts'
+make[2]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/include'
+Rmath.h is unchanged
+config.status: creating src/include/config.h
+config.status: src/include/config.h is unchanged
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/include/R_ext'
+make[3]: No se hace nada para 'R'.
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/include/R_ext'
+make[2]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/include'
+make[2]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/extra'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/extra/tre'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/extra/tre'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/extra/tre'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/extra/tre'
+gcc -std=gnu99 -I. -I. -I../../../src/include -I../../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fvisibility=hidden -c regcomp.c -o regcomp.o
+gcc -std=gnu99 -I. -I. -I../../../src/include -I../../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fvisibility=hidden -c regerror.c -o regerror.o
+gcc -std=gnu99 -I. -I. -I../../../src/include -I../../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fvisibility=hidden -c regexec.c -o regexec.o
+gcc -std=gnu99 -I. -I. -I../../../src/include -I../../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fvisibility=hidden -c tre-ast.c -o tre-ast.o
+gcc -std=gnu99 -I. -I. -I../../../src/include -I../../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fvisibility=hidden -c tre-compile.c -o tre-compile.o
+gcc -std=gnu99 -I. -I. -I../../../src/include -I../../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fvisibility=hidden -c tre-match-approx.c -o tre-match-approx.o
+gcc -std=gnu99 -I. -I. -I../../../src/include -I../../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fvisibility=hidden -c tre-match-backtrack.c -o tre-match-backtrack.o
+gcc -std=gnu99 -I. -I. -I../../../src/include -I../../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fvisibility=hidden -c tre-match-parallel.c -o tre-match-parallel.o
+gcc -std=gnu99 -I. -I. -I../../../src/include -I../../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fvisibility=hidden -c tre-mem.c -o tre-mem.o
+gcc -std=gnu99 -I. -I. -I../../../src/include -I../../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fvisibility=hidden -c tre-parse.c -o tre-parse.o
+gcc -std=gnu99 -I. -I. -I../../../src/include -I../../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fvisibility=hidden -c tre-stack.c -o tre-stack.o
+gcc -std=gnu99 -I. -I. -I../../../src/include -I../../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fvisibility=hidden -c xmalloc.c -o xmalloc.o
+ar -cr libtre.a regcomp.o regerror.o regexec.o tre-ast.o tre-compile.o tre-match-approx.o tre-match-backtrack.o tre-match-parallel.o tre-mem.o tre-parse.o tre-stack.o xmalloc.o
+ranlib libtre.a
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/extra/tre'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/extra/tre'
+make[2]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/extra'
+make[2]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/appl'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/appl'
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c integrate.c -o integrate.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interv.c -o interv.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c maxcol.c -o maxcol.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c optim.c -o optim.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pretty.c -o pretty.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c uncmin.c -o uncmin.o
+ar -cr libappl.a integrate.o interv.o maxcol.o optim.o pretty.o uncmin.o dchdc.o dpbfa.o dpbsl.o dpoco.o dpodi.o dpofa.o dposl.o dqrdc.o dqrdc2.o dqrls.o dqrsl.o dqrutl.o dsvdc.o dtrco.o dtrsl.o 
+ranlib libappl.a
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/appl'
+make[2]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/appl'
+make[2]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/nmath'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/nmath'
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mlutils.c -o mlutils.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c d1mach.c -o d1mach.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c i1mach.c -o i1mach.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fmax2.c -o fmax2.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fmin2.c -o fmin2.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fprec.c -o fprec.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fround.c -o fround.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ftrunc.c -o ftrunc.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sign.c -o sign.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fsign.c -o fsign.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c imax2.c -o imax2.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c imin2.c -o imin2.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chebyshev.c -o chebyshev.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c log1p.c -o log1p.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lgammacor.c -o lgammacor.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gammalims.c -o gammalims.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stirlerr.c -o stirlerr.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bd0.c -o bd0.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gamma.c -o gamma.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lgamma.c -o lgamma.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gamma_cody.c -o gamma_cody.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c beta.c -o beta.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lbeta.c -o lbeta.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c polygamma.c -o polygamma.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cospi.c -o cospi.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bessel_i.c -o bessel_i.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bessel_j.c -o bessel_j.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bessel_k.c -o bessel_k.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bessel_y.c -o bessel_y.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c choose.c -o choose.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c snorm.c -o snorm.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sexp.c -o sexp.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dgamma.c -o dgamma.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pgamma.c -o pgamma.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qgamma.c -o qgamma.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgamma.c -o rgamma.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dbeta.c -o dbeta.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pbeta.c -o pbeta.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qbeta.c -o qbeta.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rbeta.c -o rbeta.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dunif.c -o dunif.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c punif.c -o punif.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qunif.c -o qunif.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c runif.c -o runif.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dnorm.c -o dnorm.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pnorm.c -o pnorm.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qnorm.c -o qnorm.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rnorm.c -o rnorm.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dlnorm.c -o dlnorm.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c plnorm.c -o plnorm.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qlnorm.c -o qlnorm.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rlnorm.c -o rlnorm.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c df.c -o df.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pf.c -o pf.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qf.c -o qf.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rf.c -o rf.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dnf.c -o dnf.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dt.c -o dt.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pt.c -o pt.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qt.c -o qt.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rt.c -o rt.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dnt.c -o dnt.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dchisq.c -o dchisq.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pchisq.c -o pchisq.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qchisq.c -o qchisq.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rchisq.c -o rchisq.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rnchisq.c -o rnchisq.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dbinom.c -o dbinom.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pbinom.c -o pbinom.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qbinom.c -o qbinom.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rbinom.c -o rbinom.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rmultinom.c -o rmultinom.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dcauchy.c -o dcauchy.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pcauchy.c -o pcauchy.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qcauchy.c -o qcauchy.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rcauchy.c -o rcauchy.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dexp.c -o dexp.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pexp.c -o pexp.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qexp.c -o qexp.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rexp.c -o rexp.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dgeom.c -o dgeom.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pgeom.c -o pgeom.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qgeom.c -o qgeom.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeom.c -o rgeom.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dhyper.c -o dhyper.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c phyper.c -o phyper.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qhyper.c -o qhyper.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rhyper.c -o rhyper.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dnbinom.c -o dnbinom.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pnbinom.c -o pnbinom.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qnbinom.c -o qnbinom.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rnbinom.c -o rnbinom.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dpois.c -o dpois.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ppois.c -o ppois.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qpois.c -o qpois.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rpois.c -o rpois.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dweibull.c -o dweibull.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pweibull.c -o pweibull.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qweibull.c -o qweibull.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rweibull.c -o rweibull.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dlogis.c -o dlogis.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c plogis.c -o plogis.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qlogis.c -o qlogis.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rlogis.c -o rlogis.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dnchisq.c -o dnchisq.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pnchisq.c -o pnchisq.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qnchisq.c -o qnchisq.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dnbeta.c -o dnbeta.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pnbeta.c -o pnbeta.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qnbeta.c -o qnbeta.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pnf.c -o pnf.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pnt.c -o pnt.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qnf.c -o qnf.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qnt.c -o qnt.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ptukey.c -o ptukey.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qtukey.c -o qtukey.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c toms708.c -o toms708.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wilcox.c -o wilcox.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c signrank.c -o signrank.o
+ar -cr libnmath.a mlutils.o d1mach.o i1mach.o fmax2.o fmin2.o fprec.o fround.o ftrunc.o sign.o fsign.o imax2.o imin2.o chebyshev.o log1p.o lgammacor.o gammalims.o stirlerr.o bd0.o gamma.o lgamma.o gamma_cody.o beta.o lbeta.o polygamma.o cospi.o bessel_i.o bessel_j.o bessel_k.o bessel_y.o choose.o snorm.o sexp.o dgamma.o pgamma.o qgamma.o rgamma.o dbeta.o pbeta.o qbeta.o rbeta.o dunif.o punif.o qunif.o runif.o dnorm.o pnorm.o qnorm.o rnorm.o dlnorm.o plnorm.o qlnorm.o rlnorm.o df.o pf.o qf.o rf.o dnf.o dt.o pt.o qt.o rt.o dnt.o dchisq.o pchisq.o qchisq.o rchisq.o rnchisq.o dbinom.o pbinom.o qbinom.o rbinom.o rmultinom.o dcauchy.o pcauchy.o qcauchy.o rcauchy.o dexp.o pexp.o qexp.o rexp.o dgeom.o pgeom.o qgeom.o rgeom.o dhyper.o phyper.o qhyper.o rhyper.o dnbinom.o pnbinom.o qnbinom.o rnbinom.o dpois.o ppois.o qpois.o rpois.o dweibull.o pweibull.o qweibull.o rweibull.o dlogis.o plogis.o qlogis.o rlogis.o dnchisq.o pnchisq.o qnchisq.o dnbeta.o pnbeta.o qnbeta.o pnf.o pnt.o qnf.o qnt.o ptukey.o qtukey.o toms708.o wilcox.o signrank.o
+ranlib libnmath.a
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/nmath'
+make[2]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/nmath'
+make[2]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/unix'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/unix'
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include   -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rembedded.c -o Rembedded.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include   -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dynload.c -o dynload.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include   -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c system.c -o system.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include   -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sys-unix.c -o sys-unix.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include   -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sys-std.c -o sys-std.o
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include   -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c X11.c -o X11.o
+ar -cr libunix.a Rembedded.o dynload.o system.o sys-unix.o sys-std.o X11.o
+ranlib libunix.a
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/unix'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/unix'
+gcc -std=gnu99 -I. -I../../src/include -I../../src/include   -DHAVE_CONFIG_H    -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wl,-z,relro -DR_HOME='"/home/matbox/mis.sources/contrib-src/R-3.6.1"' \
+  -o Rscript ./Rscript.c
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/unix'
+make[2]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/unix'
+make[2]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/main'
+config.status: creating src/main/Makefile
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/main'
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CommandLineArgs.c -o CommandLineArgs.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rdynload.c -o Rdynload.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Renviron.c -o Renviron.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RNG.c -o RNG.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c agrep.c -o agrep.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c altclasses.c -o altclasses.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c altrep.c -o altrep.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c apply.c -o apply.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arithmetic.c -o arithmetic.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c array.c -o array.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c attrib.c -o attrib.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bind.c -o bind.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c builtin.c -o builtin.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c character.c -o character.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c coerce.c -o coerce.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c colors.c -o colors.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c complex.c -o complex.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c connections.c -o connections.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c context.c -o context.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cum.c -o cum.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dcf.c -o dcf.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c datetime.c -o datetime.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c debug.c -o debug.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c deparse.c -o deparse.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c devices.c -o devices.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dotcode.c -o dotcode.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dounzip.c -o dounzip.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dstruct.c -o dstruct.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c duplicate.c -o duplicate.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c edit.c -o edit.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c engine.c -o engine.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c envir.c -o envir.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c errors.c -o errors.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c eval.c -o eval.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c format.c -o format.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gevents.c -o gevents.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gram.c -o gram.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gram-ex.c -o gram-ex.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c graphics.c -o graphics.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c grep.c -o grep.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c identical.c -o identical.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inlined.c -o inlined.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inspect.c -o inspect.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c internet.c -o internet.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c iosupport.c -o iosupport.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lapack.c -o lapack.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c list.c -o list.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c localecharset.c -o localecharset.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c logic.c -o logic.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c main.c -o main.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mapply.c -o mapply.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c match.c -o match.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c memory.c -o memory.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c names.c -o names.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c objects.c -o objects.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c options.c -o options.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c paste.c -o paste.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c platform.c -o platform.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c plot.c -o plot.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c plot3d.c -o plot3d.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c plotmath.c -o plotmath.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c print.c -o print.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c printarray.c -o printarray.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c printvector.c -o printvector.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c printutils.c -o printutils.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qsort.c -o qsort.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c radixsort.c -o radixsort.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c random.c -o random.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c raw.c -o raw.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c registration.c -o registration.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c relop.c -o relop.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rlocale.c -o rlocale.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c saveload.c -o saveload.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scan.c -o scan.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c seq.c -o seq.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c serialize.c -o serialize.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sort.c -o sort.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c source.c -o source.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c split.c -o split.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sprintf.c -o sprintf.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c startup.c -o startup.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subassign.c -o subassign.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subscript.c -o subscript.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subset.c -o subset.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c summary.c -o summary.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sysutils.c -o sysutils.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c times.c -o times.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c unique.c -o unique.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c version.c -o version.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c g_alab_her.c -o g_alab_her.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c g_cntrlify.c -o g_cntrlify.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c g_fontdb.c -o g_fontdb.o
+gcc -std=gnu99 -I../../src/extra  -I. -I../../src/include -I../../src/include   -I../../src/nmath -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c g_her_glyph.c -o g_her_glyph.o
+gcc -std=gnu99 -shared -fopenmp -Wl,-z,relro  -o libR.so CommandLineArgs.o Rdynload.o Renviron.o RNG.o agrep.o altclasses.o altrep.o apply.o arithmetic.o array.o attrib.o bind.o builtin.o character.o coerce.o colors.o complex.o connections.o context.o cum.o dcf.o datetime.o debug.o deparse.o devices.o dotcode.o dounzip.o dstruct.o duplicate.o edit.o engine.o envir.o errors.o eval.o format.o gevents.o gram.o gram-ex.o graphics.o grep.o identical.o inlined.o inspect.o internet.o iosupport.o lapack.o list.o localecharset.o logic.o main.o mapply.o match.o memory.o names.o objects.o options.o paste.o platform.o plot.o plot3d.o plotmath.o print.o printarray.o printvector.o printutils.o qsort.o radixsort.o random.o raw.o registration.o relop.o rlocale.o saveload.o scan.o seq.o serialize.o sort.o source.o split.o sprintf.o startup.o subassign.o subscript.o subset.o summary.o sysutils.o times.o unique.o util.o version.o g_alab_her.o g_cntrlify.o g_fontdb.o g_her_glyph.o xxxpr.o   `ls ../unix/*.o ../appl/*.o ../nmath/*.o` ../extra/tre/libtre.a    -lopenblas -lgfortran -lm -lquadmath   -lreadline  -lpcre2-8 -lpcre -llzma -lbz2 -lz -lrt -ldl -lm -licuuc -licui18n  
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/main'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/main'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/main'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/main'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/main'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/bin/exec/R is unchanged
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/main'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/main'
+make[2]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/main'
+make[2]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/internet'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/lapack'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/X11'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/lapack'
+gcc -std=gnu99 -I. -I../../../src/include -I../../../src/include  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Lapack.c -o Lapack.o
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/internet'
+gcc -std=gnu99 -I. -I../../../src/include -I../../../src/include   -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -fvisibility=hidden -c Rhttpd.c -o Rhttpd.o
+gcc -std=gnu99 -I. -I../../../src/include -I../../../src/include   -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -fvisibility=hidden -c Rsock.c -o Rsock.o
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/X11'
+gcc -std=gnu99 -I/usr/include/libpng16 -I/usr/include/x86_64-linux-gnu -I. -I../../../src/include -I../../../src/include  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I../../../src/library/grDevices/src/cairo  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c devX11.c -o devX11.o
+gcc -std=gnu99 -I. -I../../../src/include -I../../../src/include   -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -fvisibility=hidden -c internet.c -o internet.o
+gcc -std=gnu99 -I. -I../../../src/include -I../../../src/include   -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -fvisibility=hidden -c libcurl.c -o libcurl.o
+gcc -std=gnu99 -I/usr/include/libpng16 -I/usr/include/x86_64-linux-gnu -I. -I../../../src/include -I../../../src/include  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I../../../src/library/grDevices/src/cairo  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rotated.c -o rotated.o
+gcc -std=gnu99 -shared -L"../../../lib" -Wl,-z,relro -o lapack.so  Lapack.o  -lR   -lopenblas -lgfortran -lm -lquadmath
+gcc -std=gnu99 -I. -I../../../src/include -I../../../src/include   -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -fvisibility=hidden -c nanoftp.c -o nanoftp.o
+make[5]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/lapack'
+make[5]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/lapack'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/lapack'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/lapack'
+gcc -std=gnu99 -I. -I../../../src/include -I../../../src/include   -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -fvisibility=hidden -c nanohttp.c -o nanohttp.o
+gcc -std=gnu99 -I/usr/include/libpng16 -I/usr/include/x86_64-linux-gnu -I. -I../../../src/include -I../../../src/include  -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I../../../src/library/grDevices/src/cairo  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rbitmap.c -o rbitmap.o
+make[4]: 'R_de.so' está actualizado.
+gcc -std=gnu99 -I. -I../../../src/include -I../../../src/include   -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -fvisibility=hidden -c sock.c -o sock.o
+gcc -std=gnu99 -I. -I../../../src/include -I../../../src/include   -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -fvisibility=hidden -c sockconn.c -o sockconn.o
+gcc -std=gnu99 -shared -L"../../../lib" -Wl,-z,relro -o R_X11.so devX11.o rotated.o rbitmap.o -ltiff -ljpeg -lpng16 -lSM -lICE -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lpng16 -lz -lcairo -lX11 -lXext -lX11 -lXt -lXmu  -lR -lm 
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/X11'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/X11'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/modules/R_de.so is unchanged
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/X11'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/X11'
+gcc -std=gnu99 -shared -L"../../../lib" -Wl,-z,relro -o internet.so Rhttpd.o Rsock.o internet.o libcurl.o nanoftp.o nanohttp.o sock.o sockconn.o -lcurl -lR  
+make[5]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/internet'
+make[5]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/internet'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/internet'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules/internet'
+make[2]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/modules'
+make[2]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/profile'
+building system startup profile
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/profile'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/translations'
+building package 'translations'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/translations'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/translations'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/translations'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/base'
+building package 'base'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/base'
+all.R is unchanged
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/base'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/base'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tools'
+building package 'tools'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tools'
+all.R is unchanged
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tools'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tools'
+make[5]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tools/src'
+make[6]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tools/src'
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c text.c -o text.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rmd5.c -o Rmd5.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c md5.c -o md5.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c signals.c -o signals.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c install.c -o install.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c getfmts.c -o getfmts.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c http.c -o http.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gramLatex.c -o gramLatex.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gramRd.c -o gramRd.o
+gcc -std=gnu99 -shared -L../../../../lib -Wl,-z,relro -o tools.so text.o init.o Rmd5.o md5.o signals.o install.o getfmts.o http.o gramLatex.o gramRd.o -L../../../../lib -lR
+make[6]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tools/src'
+make[5]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tools/src'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tools'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tools'
+installing 'sysdata.rda'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tools'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tools'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/compiler'
+building package 'compiler'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/compiler'
+all.R is unchanged
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/compiler'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/compiler'
+make[4]: No se hace nada para 'mklazycomp'.
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/compiler'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/compiler'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/base'
+make[3]: No se hace nada para 'mklazycomp'.
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/base'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tools'
+make[3]: No se hace nada para 'mklazycomp'.
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tools'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/utils'
+building package 'utils'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/utils'
+make[4]: No se hace nada para 'iconvlist'.
+all.R is unchanged
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/utils'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/utils'
+make[5]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/utils/src'
+make[6]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/utils/src'
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io.c -o io.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c size.c -o size.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sock.c -o sock.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stubs.c -o stubs.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -std=gnu99 -shared -L../../../../lib -Wl,-z,relro -o utils.so init.o io.o size.o sock.o stubs.o utils.o -L../../../../lib -lR
+make[6]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/utils/src'
+make[5]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/utils/src'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/utils'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/utils'
+installing 'sysdata.rda'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/utils'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/utils'
+make[4]: No se hace nada para 'mklazycomp'.
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/utils'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/utils'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices'
+building package 'grDevices'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices'
+all.R is unchanged
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices'
+make[5]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices/src'
+make[6]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices/src'
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H    -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c axis_scales.c -o axis_scales.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H    -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chull.c -o chull.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H    -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c devices.c -o devices.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H    -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H    -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stubs.c -o stubs.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H    -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c colors.c -o colors.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H    -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c devCairo.c -o devCairo.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H    -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c devPicTeX.c -o devPicTeX.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H    -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c devPS.c -o devPS.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H    -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c devQuartz.c -o devQuartz.o
+make[7]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices/src/cairo'
+make[8]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices/src/cairo'
+make[9]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices/src/cairo'
+gcc -std=gnu99 -I. -I../../../../../src/include -I../../../../../src/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I../../../../../src/modules/X11  -DHAVE_CONFIG_H   -fopenmp -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cairoBM.c -o cairoBM.o
+gcc -std=gnu99 -shared -L"../../../../../lib" -Wl,-z,relro -o cairo.so cairoBM.o ../../../../../src/modules/X11/rbitmap.o -ltiff -ljpeg -lpng16 -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lpng16 -lz -lcairo -L"../../../../../lib" -lR -lm 
+make[9]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices/src/cairo'
+make[8]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices/src/cairo'
+make[7]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices/src/cairo'
+gcc -std=gnu99 -shared -L../../../../lib -Wl,-z,relro -o grDevices.so axis_scales.o chull.o devices.o init.o stubs.o colors.o devCairo.o devPicTeX.o devPS.o devQuartz.o -lz -L../../../../lib -lR
+make[6]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices/src'
+make[5]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices/src'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices'
+make[4]: No se hace nada para 'mklazycomp'.
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grDevices'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/graphics'
+building package 'graphics'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/graphics'
+all.R is unchanged
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/graphics'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/graphics'
+make[5]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/graphics/src'
+make[6]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/graphics/src'
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c base.c -o base.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c graphics.c -o graphics.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c par.c -o par.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c plot.c -o plot.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c plot3d.c -o plot3d.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I../../../../src/main   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stem.c -o stem.o
+gcc -std=gnu99 -shared -L../../../../lib -Wl,-z,relro -o graphics.so init.o base.o graphics.o par.o plot.o plot3d.o stem.o -L../../../../lib -lR
+make[6]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/graphics/src'
+make[5]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/graphics/src'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/graphics'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/graphics'
+make[4]: No se hace nada para 'mklazycomp'.
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/graphics'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/graphics'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats'
+building package 'stats'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats'
+all.R is unchanged
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats'
+make[5]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats/src'
+make[6]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats/src'
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kmeans.c -o kmeans.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ansari.c -o ansari.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bandwidths.c -o bandwidths.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chisqsim.c -o chisqsim.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c d2x2xk.c -o d2x2xk.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fexact.c -o fexact.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kendall.c -o kendall.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ks.c -o ks.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c line.c -o line.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c smooth.c -o smooth.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c prho.c -o prho.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c swilk.c -o swilk.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ksmooth.c -o ksmooth.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c loessc.c -o loessc.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c monoSpl.c -o monoSpl.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c isoreg.c -o isoreg.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Srunmed.c -o Srunmed.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dblcen.c -o dblcen.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distance.c -o distance.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hclust-utils.c -o hclust-utils.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nls.c -o nls.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rWishart.c -o rWishart.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c HoltWinters.c -o HoltWinters.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c PPsum.c -o PPsum.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arima.c -o arima.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c burg.c -o burg.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c filter.c -o filter.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mAR.c -o mAR.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pacf.c -o pacf.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c starma.c -o starma.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c port.c -o port.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c family.c -o family.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sbart.c -o sbart.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c approx.c -o approx.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c loglin.c -o loglin.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lowess.c -o lowess.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c massdist.c -o massdist.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c splines.c -o splines.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lm.c -o lm.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c complete_cases.c -o complete_cases.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cov.c -o cov.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c deriv.c -o deriv.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fft.c -o fft.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fourier.c -o fourier.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c model.c -o model.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c optim.c -o optim.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c optimize.c -o optimize.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c integrate.c -o integrate.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c random.c -o random.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distn.c -o distn.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c zeroin.c -o zeroin.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rcont.c -o rcont.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fopenmp -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c influence.c -o influence.o
+gcc -std=gnu99 -shared -L../../../../lib -Wl,-z,relro -o stats.so init.o kmeans.o ansari.o bandwidths.o chisqsim.o d2x2xk.o fexact.o kendall.o ks.o line.o smooth.o prho.o swilk.o ksmooth.o loessc.o monoSpl.o isoreg.o Srunmed.o dblcen.o distance.o hclust-utils.o nls.o rWishart.o HoltWinters.o PPsum.o arima.o burg.o filter.o mAR.o pacf.o starma.o port.o family.o sbart.o approx.o loglin.o lowess.o massdist.o splines.o lm.o complete_cases.o cov.o deriv.o fft.o fourier.o model.o optim.o optimize.o integrate.o random.o distn.o zeroin.o rcont.o influence.o bsplvd.o bvalue.o bvalus.o loessf.o ppr.o qsbart.o sgram.o sinerp.o sslvrg.o stxwx.o hclust.o kmns.o eureka.o stl.o portsrc.o lminfl.o -fopenmp -lopenblas -lgfortran -lm -lquadmath -L../../../../lib -lR
+make[6]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats/src'
+make[5]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats/src'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats'
+make[4]: No se hace nada para 'mklazycomp'.
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/datasets'
+building package 'datasets'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/datasets'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/datasets'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/datasets'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/methods'
+building package 'methods'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/methods'
+all.R is unchanged
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/methods'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/methods'
+make[5]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/methods/src'
+make[6]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/methods/src'
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c do_substitute_direct.c -o do_substitute_direct.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c methods_list_dispatch.c -o methods_list_dispatch.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c slot.c -o slot.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c class_support.c -o class_support.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests.c -o tests.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -std=gnu99 -shared -L../../../../lib -Wl,-z,relro -o methods.so do_substitute_direct.o init.o methods_list_dispatch.o slot.o class_support.o tests.o utils.o -L../../../../lib -lR
+make[6]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/methods/src'
+make[5]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/methods/src'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/methods'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/methods'
+make[4]: No se hace nada para 'RfilesLazy'.
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/methods'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/methods'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grid'
+building package 'grid'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grid'
+all.R is unchanged
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grid'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grid'
+make[5]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grid/src'
+make[6]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grid/src'
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gpar.c -o gpar.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c grid.c -o grid.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c just.c -o just.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c layout.c -o layout.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c matrix.c -o matrix.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c register.c -o register.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c state.c -o state.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c unit.c -o unit.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c viewport.c -o viewport.o
+gcc -std=gnu99 -shared -L../../../../lib -Wl,-z,relro -o grid.so gpar.o grid.o just.o layout.o matrix.o register.o state.o unit.o util.o viewport.o -L../../../../lib -lR
+make[6]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grid/src'
+make[5]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grid/src'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grid'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grid'
+make[4]: No se hace nada para 'mklazycomp'.
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grid'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/grid'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/splines'
+building package 'splines'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/splines'
+all.R is unchanged
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/splines'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/splines'
+make[5]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/splines/src'
+make[6]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/splines/src'
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c splines.c -o splines.o
+gcc -std=gnu99 -shared -L../../../../lib -Wl,-z,relro -o splines.so splines.o -L../../../../lib -lR
+make[6]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/splines/src'
+make[5]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/splines/src'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/splines'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/splines'
+make[4]: No se hace nada para 'mklazycomp'.
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/splines'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/splines'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats4'
+building package 'stats4'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats4'
+all.R is unchanged
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats4'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats4'
+make[4]: No se hace nada para 'mklazycomp'.
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats4'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/stats4'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tcltk'
+building package 'tcltk'
+all.R is unchanged
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tcltk'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tcltk'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tcltk/src'
+make[5]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tcltk/src'
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I/usr/include/tcl8.6 -I/usr/include/tcl8.6    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I/usr/include/tcl8.6 -I/usr/include/tcl8.6    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tcltk.c -o tcltk.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H -I/usr/include/tcl8.6 -I/usr/include/tcl8.6    -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tcltk_unix.c -o tcltk_unix.o
+gcc -std=gnu99 -shared -L../../../../lib -Wl,-z,relro -o tcltk.so init.o tcltk.o tcltk_unix.o -L/usr/lib/x86_64-linux-gnu -ltcl8.6 -L/usr/lib/x86_64-linux-gnu -ltk8.6 -lX11 -lXss -lXext -lm -L../../../../lib -lR
+make[5]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tcltk/src'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tcltk/src'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tcltk'
+make[4]: No se hace nada para 'mklazycomp'.
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tcltk'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/tcltk'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/parallel'
+building package 'parallel'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/parallel'
+all.R is unchanged
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/parallel'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/parallel'
+make[5]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/parallel/src'
+make[6]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/parallel/src'
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rngstream.c -o rngstream.o
+gcc -std=gnu99 -I"../../../../include" -DNDEBUG -I../../../include -I../../../../src/include -DHAVE_CONFIG_H   -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fork.c -o fork.o
+gcc -std=gnu99 -shared -L../../../../lib -Wl,-z,relro -o parallel.so init.o rngstream.o fork.o -L../../../../lib -lR
+make[6]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/parallel/src'
+make[5]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/parallel/src'
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/parallel'
+make[4]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/parallel'
+make[4]: No se hace nada para 'mklazycomp'.
+make[4]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/parallel'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/parallel'
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/base'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/base'
+installing parsed NAMESPACE files
+make[2]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'
+make[1]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src'
+make[1]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/tests'
+make[1]: No se hace nada para 'R'.
+make[1]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/tests'
+make[1]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1'
+make[1]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/doc'
+configuring Java ...
+make[2]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/doc/manual'
+creating doc/manual/version.texi
+/home/matbox/.R/Makevars:183: atención: se anulan las instrucciones para el objetivo '.c.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:167: atención: se ignoran las instrucciones viejas para el objetivo '.c.o'
+/home/matbox/.R/Makevars:185: atención: se anulan las instrucciones para el objetivo '.c.d'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:169: atención: se ignoran las instrucciones viejas para el objetivo '.c.d'
+/home/matbox/.R/Makevars:188: atención: se anulan las instrucciones para el objetivo '.m.d'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:172: atención: se ignoran las instrucciones viejas para el objetivo '.m.d'
+/home/matbox/.R/Makevars:190: atención: se anulan las instrucciones para el objetivo '.cc.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:174: atención: se ignoran las instrucciones viejas para el objetivo '.cc.o'
+/home/matbox/.R/Makevars:192: atención: se anulan las instrucciones para el objetivo '.cpp.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:176: atención: se ignoran las instrucciones viejas para el objetivo '.cpp.o'
+/home/matbox/.R/Makevars:194: atención: se anulan las instrucciones para el objetivo '.cc.d'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:178: atención: se ignoran las instrucciones viejas para el objetivo '.cc.d'
+/home/matbox/.R/Makevars:197: atención: se anulan las instrucciones para el objetivo '.cpp.d'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:181: atención: se ignoran las instrucciones viejas para el objetivo '.cpp.d'
+/home/matbox/.R/Makevars:200: atención: se anulan las instrucciones para el objetivo '.m.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:184: atención: se ignoran las instrucciones viejas para el objetivo '.m.o'
+/home/matbox/.R/Makevars:202: atención: se anulan las instrucciones para el objetivo '.mm.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:186: atención: se ignoran las instrucciones viejas para el objetivo '.mm.o'
+/home/matbox/.R/Makevars:204: atención: se anulan las instrucciones para el objetivo '.M.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:188: atención: se ignoran las instrucciones viejas para el objetivo '.M.o'
+/home/matbox/.R/Makevars:206: atención: se anulan las instrucciones para el objetivo '.f.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:190: atención: se ignoran las instrucciones viejas para el objetivo '.f.o'
+/home/matbox/.R/Makevars:209: atención: se anulan las instrucciones para el objetivo '.f95.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:193: atención: se ignoran las instrucciones viejas para el objetivo '.f95.o'
+/home/matbox/.R/Makevars:211: atención: se anulan las instrucciones para el objetivo '.f90.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:195: atención: se ignoran las instrucciones viejas para el objetivo '.f90.o'
+Java interpreter : /usr/lib/jvm/default-java/jre/bin/java
+creating doc/manual/R-admin.html
+creating doc/manual/R-exts.html
+creating doc/manual/R-data.html
+Java version     : 1.8.0_232
+Java home path   : /usr/lib/jvm/default-java
+creating doc/manual/R-intro.html
+Java compiler    : /usr/lib/jvm/default-java/bin/javac
+Java headers gen.: /usr/lib/jvm/default-java/bin/javah
+Java archive tool: /usr/lib/jvm/default-java/bin/jar
+
+trying to compile and link a JNI program 
+detected JNI cpp flags    : -I$(JAVA_HOME)/include -I$(JAVA_HOME)/include/linux
+detected JNI linker flags : -L$(JAVA_HOME)/jre/lib/amd64/server -ljvm
+creating doc/manual/R-ints.html
+make[2]: se entra en el directorio '/tmp/Rjavareconf.8ymi32'
+/home/matbox/.R/Makevars:183: atención: se anulan las instrucciones para el objetivo '.c.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:167: atención: se ignoran las instrucciones viejas para el objetivo '.c.o'
+/home/matbox/.R/Makevars:185: atención: se anulan las instrucciones para el objetivo '.c.d'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:169: atención: se ignoran las instrucciones viejas para el objetivo '.c.d'
+/home/matbox/.R/Makevars:188: atención: se anulan las instrucciones para el objetivo '.m.d'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:172: atención: se ignoran las instrucciones viejas para el objetivo '.m.d'
+/home/matbox/.R/Makevars:190: atención: se anulan las instrucciones para el objetivo '.cc.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:174: atención: se ignoran las instrucciones viejas para el objetivo '.cc.o'
+/home/matbox/.R/Makevars:192: atención: se anulan las instrucciones para el objetivo '.cpp.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:176: atención: se ignoran las instrucciones viejas para el objetivo '.cpp.o'
+/home/matbox/.R/Makevars:194: atención: se anulan las instrucciones para el objetivo '.cc.d'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:178: atención: se ignoran las instrucciones viejas para el objetivo '.cc.d'
+/home/matbox/.R/Makevars:197: atención: se anulan las instrucciones para el objetivo '.cpp.d'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:181: atención: se ignoran las instrucciones viejas para el objetivo '.cpp.d'
+/home/matbox/.R/Makevars:200: atención: se anulan las instrucciones para el objetivo '.m.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:184: atención: se ignoran las instrucciones viejas para el objetivo '.m.o'
+/home/matbox/.R/Makevars:202: atención: se anulan las instrucciones para el objetivo '.mm.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:186: atención: se ignoran las instrucciones viejas para el objetivo '.mm.o'
+/home/matbox/.R/Makevars:204: atención: se anulan las instrucciones para el objetivo '.M.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:188: atención: se ignoran las instrucciones viejas para el objetivo '.M.o'
+/home/matbox/.R/Makevars:206: atención: se anulan las instrucciones para el objetivo '.f.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:190: atención: se ignoran las instrucciones viejas para el objetivo '.f.o'
+/home/matbox/.R/Makevars:209: atención: se anulan las instrucciones para el objetivo '.f95.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:193: atención: se ignoran las instrucciones viejas para el objetivo '.f95.o'
+/home/matbox/.R/Makevars:211: atención: se anulan las instrucciones para el objetivo '.f90.o'
+/home/matbox/mis.sources/contrib-src/R-3.6.1/etc/Makeconf:195: atención: se ignoran las instrucciones viejas para el objetivo '.f90.o'
+ccache gcc -std=gnu99 -I"/home/matbox/mis.sources/contrib-src/R-3.6.1/include /home/matbox/mis.sources/contrib-src/R-3.6.1/include /home/matbox/mis.sources/contrib-src/R-3.6.1/src/include /home/matbox/mis.sources/contrib-src/R-3.6.1/src/include/R_ext /home/matbox/PUCV/est741_2019/caso02/src/Extern /home/matbox/PUCV/est741_2019/caso02/src/Extern/R_ext" -DNDEBUG -I/usr/lib/jvm/default-java/include -I/usr/lib/jvm/default-java/include/linux    -fpic  -g -O2 -fdebug-prefix-map=/home/jranke/git/r-backports/stretch/r-base-3.6.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c conftest.c -o conftest.o
+ccache gcc -std=gnu99 -shared -L/home/matbox/mis.sources/contrib-src/R-3.6.1/lib -Wl,-z,relro -o conftest.so conftest.o -L/usr/lib/jvm/default-java/jre/lib/amd64/server -ljvm -L/home/matbox/mis.sources/contrib-src/R-3.6.1/lib -lR
+make[2]: se sale del directorio '/tmp/Rjavareconf.8ymi32'
+
+
+JAVA_HOME        : /usr/lib/jvm/default-java
+Java library path: $(JAVA_HOME)/jre/lib/amd64/server
+JNI cpp flags    : -I$(JAVA_HOME)/include -I$(JAVA_HOME)/include/linux
+JNI linker flags : -L$(JAVA_HOME)/jre/lib/amd64/server -ljvm
+Updating Java configuration in /home/matbox/mis.sources/contrib-src/R-3.6.1
+Done.
+
+make[1]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1'
+creating doc/manual/R-lang.html
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/doc/html'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/doc/html'
+make[2]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/doc/manual'
+make[1]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/doc'
+make[1]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'
+make[2]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'
+installing parsed Rd
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'
+  utils
+  methods
+  stats
+  base
+  graphics
+  grDevices
+  datasets
+  grid
+  tcltk
+  tools
+  splines
+  stats4
+  compiler
+  parallel
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'
+make[2]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'
+make[2]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'
+building/updating package metadata ...
+make[2]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'
+make[2]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'
+writing package indices
+make[3]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'
+make[3]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'
+make[2]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'
+make[1]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'
+make[1]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/Recommended'
+make[1]: No se hace nada para 'all'.
+make[1]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library/Recommended'
+make[1]: se entra en el directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'
+building/updating vignettes for package 'grid' ...
+processing 'grid.Rnw'
+building/updating vignettes for package 'parallel' ...
+building/updating vignettes for package 'utils' ...
+make[1]: se sale del directorio '/home/matbox/mis.sources/contrib-src/R-3.6.1/src/library'

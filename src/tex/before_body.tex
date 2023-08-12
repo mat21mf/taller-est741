@@ -1,0 +1,23 @@
+
+% Redefinir dimensiones de documento
+\newlength{\classpageheight}
+\setlength{\classpageheight}{\paperheight}
+\newlength{\classpagewidth}
+\setlength{\classpagewidth}{\paperwidth}
+
+% Renombrar toc sin usepackage
+\renewcommand{\contentsname}{Índice general}
+\renewcommand{\listtablename}{Índice de cuadros}
+\renewcommand{\listfigurename}{Índice de gráficos}
+\renewcommand{\refname}{Referencias}
+\renewcommand{\tablename}{Cuadro}
+\renewcommand{\figurename}{Gráfico}
+
+% toc
+% Llamar toc solo desde aqui o desde
+% preambulo YAML
+\clearpage
+\tableofcontents
+\listoftables
+\listoffigures
+
